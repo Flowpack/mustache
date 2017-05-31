@@ -2,6 +2,7 @@
     "description": "Mustache template Fusion object",
     "type": "neos-package",
     "name": "flowpack/mustache",
+    "license": "GPL-3.0+",
     "require": {
         "neos/flow": "^4.0",
         "mustache/mustache": "^2.0"
