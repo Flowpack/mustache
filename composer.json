@@ -1,0 +1,19 @@
+{
+    "description": "Mustache template Fusion object",
+    "type": "neos-package",
+    "name": "flowpack/mustache",
+    "require": {
+        "neos/flow": "^4.0",
+        "mustache/mustache": "^2.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Flowpack\\Mustache\\": "Classes/"
+        }
+    },
+    "extra": {
+        "neos": {
+            "package-key": "Flowpack.Mustache"
+        }
+    }
+}
