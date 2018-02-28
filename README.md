@@ -13,4 +13,6 @@ prototype(Your.Site:Hello) < prototype(Flowpack.Mustache:Template) {
 ```
 3. Place a Mustache template into `Packages/Sites/Your.Site/Resources/Private/Fusion/Hello/Hello.html`. E.g. `Hello, {{planet}}`
 
+4. Alternatively you can use it as an Eel helper, e.g. `@process.params = ${Mustache.render('Hello, {{planet}}', {planet: 'Earth'})}`. Useful for replacing some placeholders in content.
+
 ## TODO: object access
